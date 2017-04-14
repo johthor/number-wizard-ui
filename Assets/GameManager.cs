@@ -15,5 +15,6 @@ public class GameManager : MonoBehaviour
     public void QuitRequest()
     {
         print("Quit game requested");
+        Application.Quit();
     }
 }
